@@ -1,0 +1,113 @@
+body{
+	background: lightyellow;
+}
+
+.signup-container{
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.sign-up{
+
+	height: 500px;
+	width: 650px;
+	background: wheat;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-between;
+	
+
+}
+
+.box-left {
+	width: 48%;
+    background-image: url('../images/signup-logo.jpg');
+     background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+
+
+.minilogo img{
+	height: 100px;
+	width: 80%;
+	border-radius: 10px;
+	opacity: 0.8;
+
+
+
+}
+.minilogo{
+	display: flex;
+	justify-content: center;
+}
+
+.box-right{
+	width: 48%;
+}
+
+
+
+.contactus-main .left2{
+	width: 45%;
+	padding: 50px;
+}
+
+.input-row2{
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.input-row2 input{
+	height: 40px;
+	padding-left: 10px;
+	border-radius: 10px;
+
+}
+.input-row2 label{
+	font-weight: bold;
+} 
+
+.submit-form{
+	margin: 38px;
+}
+.action-container{
+	display: flex;
+	justify-content: center;
+}
+
+.btn-submit{
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	background: #ce181e;
+	padding: 10px 50px;
+	border: none;
+	outline: none;
+	border-radius: 16px;
+	cursor: pointer;
+	
+}
+
+#error{
+	color: red;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background: #FFF5EC;
+}
+.header{
+	background: #ce181e;
+	width: 100%;
+	height:100px ;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.header img{
+	height: 100px;
+	border-radius: 12%;
+	
+}
+nav div a {
+	margin-right: 20px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.section1{
+	background-image: url('../images/backgroud2.jpg');
+	height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.section1 h1{
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	padding-top: 100px;
+}
+.section1 button{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	background: #ce181e;
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	border-radius: 16px;
+	cursor: pointer;
+
+
+}
+.section1 .btn-container{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+
+}
+.middle-text{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+
+}
+.middle-text p{
+	width: 46%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 20px;
+	color: darkgreen;
+	font-weight: bold;
+
+}
+.history-header{
+	text-align: center;
+	margin-top: 20px;
+	background-image: url(../images/background3.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 450px;
+	padding-top: 200px;
+
+}
+.history-header h1{
+	font-size: 60px;
+	color: white;
+
+}
+
+.all-categories img{
+	width: 100%;
+
+	box-shadow: 0px 4px 4px rgba(235, 241, 245, 0.5);
+}
+.all-categories{
+	display: flex;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.category{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 16px;
+}
+
+.category div{
+	background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(235, 241, 245, 0.5);
+}
+.category:hover{
+	transform: scale(1.25);
+}
+
+h1.cat-h1{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer.footer{
+	background: darkgreen;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 75px;
+	padding-left: 40px;
+	padding-right: 40px;
+
+
+}
+.footer p{
+	text-align: right;
+	margin-top: 75px;
+}
+
+
+.content p{
+	margin-top: 20px;
+	font-size: 24px;
+	font-style: italic;
+	line-height: 1.4;
+}
+.content{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	font-weight: bold;
+	text-align: justify;
+}
+.about-header h1{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+
+
+}
